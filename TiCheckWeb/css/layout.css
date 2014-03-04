@@ -1,0 +1,63 @@
+
+/*-------------------------------------------------*/
+
+.container{
+	position: relative;
+	width:1024px;
+	min-width:960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/*-----------------------header--------------------------*/
+.Header{
+	
+	height:70px;
+}
+
+.header_content{
+	padding-top:15px;
+}
+
+#logo{
+	height:40px;
+	width:auto;
+}
+
+
+/*-----------------------banner--------------------------*/
+.Banner{
+	
+}
+
+.BannerBG_Box{
+	height:1200px;
+	min-width:1024px;
+}
+
+.BannerBG_Image{
+	background-color:#16a6e1;
+	margin-top:-70px;
+	background:url(test/bannerBG.png) no-repeat;
+	-moz-background-size:contain;
+	-ms-background-size:contain;
+	-webkit-background-size:contain;
+	background-size:contain;
+
+	height:100%;
+	width:100%;
+}
+
+.test{
+	float:left;
+	height:300px;
+	padding:40px;
+	margin:40px;
+}
+
+/*-----------------------mainIntroduction--------------------------*/
+
+.Main_Introduction{
+	
+}
