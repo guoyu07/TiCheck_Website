@@ -18,6 +18,12 @@
 
 .header_content{
 	padding-top:15px;
+	position: relative;
+	width:1100px;
+	min-width:960px;
+	margin-left: auto;
+	margin-right: auto;
+
 }
 
 #logo{
@@ -32,13 +38,14 @@
 }
 
 .BannerBG_Box{
-	height:1200px;
+	height:800px;
 	min-width:1024px;
+
 }
 
 .BannerBG_Image{
 	background-color:#16a6e1;
-	margin-top:-70px;
+	margin-top:-900px;
 	background:url(test/bannerBG.png) no-repeat;
 	-moz-background-size:contain;
 	-ms-background-size:contain;
@@ -49,15 +56,113 @@
 	width:100%;
 }
 
-.test{
-	float:left;
-	height:300px;
-	padding:40px;
-	margin:40px;
+.BannerElLementBox{
+	
 }
+
+#PhoneViewBox{
+	float: left;
+
+}
+#PhoneViewBox img{
+	float: left;
+	width: 400px;
+	height: auto;
+	padding-top: 100px;
+	margin-bottom: -100px;
+	
+
+}
+
+#leftPanelElementBox{
+	
+	float: left;
+	margin: 110px 0px 0px 80px;
+}
+
+#leftPanelElementBox .BannerTitle{
+	color: #ffffff;
+	font-size: 36px;
+
+	margin-bottom: 100px;
+}
+
+#leftPanelElementBox .BannerTitle span{
+	font-weight: bold;
+}
+
+.DownButton{
+	background-color: #90d82e;
+
+	margin-left: 160px;
+
+	font-size: 18px;
+
+	padding: 25px 30px 25px 30px;
+	border-radius: 10px;
+	font-weight: bold;
+	border-bottom: 2px solid #37531a;
+
+
+	-webkit-box-shadow:inset 0px -3px 0px 0px #5a921e;
+  	-moz-box-shadow: inset 0px -3px 0px 0px #5a921e;
+  	box-shadow: inset 0px -3px 0px 0px #5a921e;
+
+}
+
+
+.DownButton:hover{
+	color: #000000;
+	text-decoration: none;
+}
+
+.SeeOurWork{
+	margin-left: 185px;
+	margin-top: 70px;
+}
+
+
+.SeeOurWork a img{
+	margin-top: -3px;
+	width: 18px;
+	height: auto;
+
+}
+
+.SeeOurWork a{
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-bottom: 3px;
+	border-bottom: 1px solid #ffffff;
+	font-size: 18px;
+	color: #ffffff;
+
+
+}
+
+.SeeOurWork a:hover{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+
 
 /*-----------------------mainIntroduction--------------------------*/
 
-.Main_Introduction{
+.Main_IntroductionBox{
+	background-color: #eef4de;
+	height: 1000px;
 	
 }
+
+.Main_Introduction{
+
+}
+
+
+/*-----------------------Footer--------------------------*/
+.Footer{
+	background-color: #30323a;
+	height: 300px;
+}
+
