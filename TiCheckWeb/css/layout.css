@@ -37,15 +37,17 @@
 	
 }
 
-.BannerBG_Box{
-	height:800px;
-	min-width:1024px;
+.BannerBox{
+	
 
 }
-
+.BannnerBG_Box{
+	
+}
 .BannerBG_Image{
-	background-color:#16a6e1;
-	margin-top:-900px;
+
+	background-color:#18a7e1;
+	
 	background:url(test/bannerBG.png) no-repeat;
 	-moz-background-size:contain;
 	-ms-background-size:contain;
@@ -68,8 +70,8 @@
 	float: left;
 	width: 400px;
 	height: auto;
-	padding-top: 100px;
-	margin-bottom: -100px;
+	padding-top: 40%;
+	margin-bottom: -20%;
 	
 
 }
@@ -150,19 +152,35 @@
 /*-----------------------mainIntroduction--------------------------*/
 
 .Main_IntroductionBox{
-	background-color: #eef4de;
-	height: 1000px;
+	
+	
 	
 }
 
 .Main_Introduction{
 
 }
+.Main_Introduction img{
+	width: 1024px;
+	height: auto;
+	-webkit-draggable:"false";
+	-moz-draggable:"false";
 
+
+}
 
 /*-----------------------Footer--------------------------*/
 .Footer{
 	background-color: #30323a;
 	height: 300px;
+}
+
+.copyright{
+	
+}
+.copyright h1{
+	padding:180px 0px 0px 0px;
+	color: #2d4557;
+	font-size: 12px;
 }
 
