@@ -76,18 +76,20 @@
 #leftPanelElementBox{
 	
 	float: left;
-	margin: 110px 0px 0px 80px;
+	margin: 110px 0px 0px 90px;
 }
 
-#leftPanelElementBox .BannerTitle{
+#leftPanelElementBox h1{
 	color: #ffffff;
 	font-size: 36px;
 
+	font-weight:lighter;
 	margin-bottom: 100px;
 }
 
-#leftPanelElementBox .BannerTitle span{
-	font-weight: bold;
+#leftPanelElementBox h1 span{
+	font-weight: bolder;
+
 }
 
 .DownButton{
@@ -95,14 +97,14 @@
 
 	margin-left: 160px;
 
-	font-size: 18px;
+	font-size: 20px;
 
 	padding: 25px 30px 25px 30px;
 	border-radius: 10px;
-	font-weight: bold;
+	font-weight: bolder;
 	border-bottom: 2px solid #37531a;
-
-
+	
+	color: #000000;
 	-webkit-box-shadow:inset 0px -3px 0px 0px #5a921e;
   	-moz-box-shadow: inset 0px -3px 0px 0px #5a921e;
   	box-shadow: inset 0px -3px 0px 0px #5a921e;
@@ -179,6 +181,10 @@
 	height:50px;
 	margin:30px;
 	border-radius:2px;
+	
+	-webkit-box-shadow: 1px 2px 1px 2px #e8e8e8;
+  	-moz-box-shadow:  1px 2px 1px 2px #e8e8e8;
+  	box-shadow:  1px 2px 1px 2px #e8e8e8;
 }
 .contactButton{
 	background-color:#079fdd;
@@ -188,9 +194,11 @@
 }
 .contactButton a{
 	margin-left: 51px;
+	font-weight:bolder;
 }
 .downloadButton a{
 	margin-left: 70px;
+	font-weight:bolder;
 }
 .shadowButton a{
 	color: #ffffff;
@@ -203,7 +211,7 @@
 }
 .bottomImageBox{
 	
-	
+	margin-bottom:-2px
 }
 
 .bottomImageBox img{

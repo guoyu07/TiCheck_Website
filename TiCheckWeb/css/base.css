@@ -29,28 +29,55 @@
 
 /* #Basic Styles
 ================================================== */
+
+@font-face {
+  font-family: OpenSans;
+  src: url('Font/open-sans/OpenSans-Regular.ttf') format('truetype'),
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: OpenSans;
+  src: url('Font/open-sans/OpenSans-Light.ttf') format('truetype'),
+  font-weight: lighter;
+  font-style: lighter;
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url('Font/open-sans/OpenSans-Bold.ttf') format('truetype'),
+  font-weight: bold;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url('Font/open-sans/OpenSans-Semibold.ttf') format('truetype'),
+  font-weight: bolder;
+  font-style: bolder;
+}
 	body {
 		background:#ffffff;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
-		font-family:"Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif; 
+		font-family:"OpenSans" ,"Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif; 
  }
 .clearfix:after 
 { 
-visibility: hidden; 
-display: block; 
-font-size: 0; 
-content: "."; 
-clear: both; 
-height: 0; 
+	visibility: hidden; 
+	display: block; 
+	font-size: 0; 
+	content: "."; 
+	clear: both; 
+	height: 0; 
 } 
 * html .clearfix 
 { 
-zoom: 1; 
+	zoom: 1; 
 } 
 *:first-child + html .clearfix 
 { 
-zoom: 1; 
+	zoom: 1; 
 } 
 
 
@@ -59,6 +86,7 @@ zoom: 1;
 	h1, h2, h3, h4, h5, h6 ul input button{
 		color:#434343;
 		font-weight:normal; 
+		font-family:"OpenSans" ,"Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif; 
 		}
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: normal; }
 	h1 { font-size: 18px;}
@@ -98,6 +126,7 @@ zoom: 1;
 		text-decoration:none;
 		outline:none;
 		color:#313131;
+		font-family:"OpenSans" ,"Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif; 
 	}
 	
 	a:hover {
