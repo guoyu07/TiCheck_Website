@@ -4,7 +4,7 @@
 .container{
 	position: relative;
 	width:1024px;
-	min-width:960px;
+	min-width:1024px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -18,12 +18,6 @@
 
 .header_content{
 	padding-top:15px;
-	position: relative;
-	width:1100px;
-	min-width:960px;
-	margin-left: auto;
-	margin-right: auto;
-
 }
 
 #logo{
@@ -42,9 +36,15 @@
 
 }
 .BannnerBG_Box{
-	
+	position:absolute;
+	width:1280px;
+	min-width:1024px;
+	margin-left: auto;
+	margin-right: auto;
+	top:0px;
+	z-index: -1;
 }
-.BannerBG_Image{
+.BannerBG_Image img{
 
 	background-color:#18a7e1;
 	
@@ -58,22 +58,19 @@
 	width:100%;
 }
 
-.BannerElLementBox{
+.BannerElementBox{
 	
 }
 
 #PhoneViewBox{
 	float: left;
+	margin-left:-70px;
 
 }
 #PhoneViewBox img{
 	float: left;
-	width: 400px;
-	height: auto;
-	padding-top: 40%;
-	margin-bottom: -20%;
-	
-
+	width: auto;
+	height: 814px;
 }
 
 #leftPanelElementBox{
@@ -168,6 +165,52 @@
 
 
 }
+
+/*-----------------------otherInfo--------------------------*/
+
+.buttonBox{
+	margin:100px 180px;
+}
+
+.shadowButton{
+	float:left;
+	
+	width:270px;
+	height:50px;
+	margin:30px;
+	border-radius:2px;
+}
+.contactButton{
+	background-color:#079fdd;
+}
+.downloadButton{
+	background-color:#9bc859;
+}
+.contactButton a{
+	margin-left: 51px;
+}
+.downloadButton a{
+	margin-left: 70px;
+}
+.shadowButton a{
+	color: #ffffff;
+	line-height:50px;
+	font-size:14px;
+}
+.shadowButton a:hover{
+	color: #ffffff;
+	text-decoration: none;
+}
+.bottomImageBox{
+	
+	
+}
+
+.bottomImageBox img{
+	width:1024px;
+	height:auto;
+}
+
 
 /*-----------------------Footer--------------------------*/
 .Footer{
