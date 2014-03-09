@@ -84,12 +84,13 @@
 	font-size: 36px;
 
 	font-weight:lighter;
+	font-family:"OpenSans" ,"Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
 	margin-bottom: 100px;
 }
 
 #leftPanelElementBox h1 span{
-	font-weight: bolder;
-
+	font-weight: bold;
+	font-family:"OpenSans" ,"Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif; 
 }
 
 .DownButton{
@@ -105,6 +106,7 @@
 	border-bottom: 2px solid #37531a;
 	
 	color: #000000;
+
 	-webkit-box-shadow:inset 0px -3px 0px 0px #5a921e;
   	-moz-box-shadow: inset 0px -3px 0px 0px #5a921e;
   	box-shadow: inset 0px -3px 0px 0px #5a921e;
@@ -137,8 +139,6 @@
 	border-bottom: 1px solid #ffffff;
 	font-size: 18px;
 	color: #ffffff;
-
-
 }
 
 .SeeOurWork a:hover{
@@ -152,13 +152,14 @@
 
 .Main_IntroductionBox{
 	
-	
+	opacity: 0.1;
 	
 }
 
 .Main_Introduction{
 
 }
+
 .Main_Introduction img{
 	width: 1024px;
 	height: auto;
@@ -174,6 +175,20 @@
 	margin:100px 180px;
 }
 
+.buttonBox a{
+	width:270px;
+	color: #ffffff;
+	text-align:center;
+	line-height:50px;
+	font-size:14px;
+	font-weight:bolder;
+}
+
+.buttonBox a:hover{
+	color: #ffffff;
+	text-decoration: none;
+}
+
 .shadowButton{
 	float:left;
 	
@@ -182,33 +197,19 @@
 	margin:30px;
 	border-radius:2px;
 	
-	-webkit-box-shadow: 1px 2px 1px 2px #e8e8e8;
-  	-moz-box-shadow:  1px 2px 1px 2px #e8e8e8;
-  	box-shadow:  1px 2px 1px 2px #e8e8e8;
+	-webkit-box-shadow: 1px 2px 2px 1px #e8e8e8;
+  	-moz-box-shadow:  1px 2px 2px 1px #e8e8e8;
+  	box-shadow:  1px 2px 2px 1px #e8e8e8;
 }
+
 .contactButton{
 	background-color:#079fdd;
 }
+
 .downloadButton{
 	background-color:#9bc859;
 }
-.contactButton a{
-	margin-left: 51px;
-	font-weight:bolder;
-}
-.downloadButton a{
-	margin-left: 70px;
-	font-weight:bolder;
-}
-.shadowButton a{
-	color: #ffffff;
-	line-height:50px;
-	font-size:14px;
-}
-.shadowButton a:hover{
-	color: #ffffff;
-	text-decoration: none;
-}
+
 .bottomImageBox{
 	
 	margin-bottom:-2px
@@ -229,6 +230,7 @@
 .copyright{
 	
 }
+
 .copyright h1{
 	padding:180px 0px 0px 0px;
 	color: #2d4557;

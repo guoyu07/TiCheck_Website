@@ -32,28 +32,28 @@
 
 @font-face {
   font-family: OpenSans;
-  src: url('Font/open-sans/OpenSans-Regular.ttf') format('truetype'),
-  font-weight: normal;
+  src: url('Font/open-sans/OpenSans-Regular.ttf') format('truetype');
+  
   font-style: normal;
 }
 @font-face {
   font-family: OpenSans;
-  src: url('Font/open-sans/OpenSans-Light.ttf') format('truetype'),
-  font-weight: lighter;
+  src: url('Font/open-sans/OpenSans-Light.ttf') format('truetype');
+  
   font-style: lighter;
 }
 
 @font-face {
   font-family: OpenSans;
-  src: url('Font/open-sans/OpenSans-Bold.ttf') format('truetype'),
-  font-weight: bold;
+  src: url('Font/open-sans/OpenSans-Bold.ttf') format('truetype');
+  
   font-style: bold;
 }
 
 @font-face {
   font-family: OpenSans;
-  src: url('Font/open-sans/OpenSans-Semibold.ttf') format('truetype'),
-  font-weight: bolder;
+  src: url('Font/open-sans/OpenSans-Semibold.ttf') format('truetype');
+  
   font-style: bolder;
 }
 	body {

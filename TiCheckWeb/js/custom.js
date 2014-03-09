@@ -1,7 +1,9 @@
 //  
 jQuery(document).ready(function ($) {
 	
-	
+
+
+	//banner 自适应
 	$(window).load(ResetBannerBGBox);
 
 	$(window).resize(ResetBannerBGBox);  
@@ -12,7 +14,10 @@ jQuery(document).ready(function ($) {
 		var minDafultWidth=1280;
 		var rate=2560/1558;
 		var width=$(window).width();
-		
+
+		// 用于 MainIntroductionAnimationFunction 动画效果
+		currentScreenHeight=$(window).height();
+
 		//
 		if(width>minDafultWidth)
 		{
@@ -63,5 +68,40 @@ jQuery(document).ready(function ($) {
  		$("#leftPanelElementBox ").css("margin-top",offset);
  		
  	}
+
+ 	//滚动动画
+ 	//初始化 隐藏
+ 	
+ 	//$(".Main_IntroductionBox").fadeTo(1,0.01);
+
+ 	var currentScreenHeight=$(window).height();
+ 	//该值因为介绍图的长短有所变化
+ 	var RateOfChanging=1.5;
+ 	$(window).scroll(MainIntroductionAnimationFunction);
+
+ 	function MainIntroductionAnimationFunction()
+ 	{
+ 		var scrollBarToTop= $(window).scrollTop();
+ 		var FadeToFunctionFactor=((scrollBarToTop-currentScreenHeight)/currentScreenHeight)*RateOfChanging;
+
+ 		if(FadeToFunctionFactor>=0&&FadeToFunctionFactor<=1)
+ 		{
+ 			//animate implementation
+			$(".Main_IntroductionBox").animate({opacity: FadeToFunctionFactor},1);
+
+ 			//fadeto implementation
+ 			//$(".Main_IntroductionBox").fadeTo(10,FadeToFunctionFactor);
+ 		}
+ 		else if(FadeToFunctionFactor<0)
+ 		{
+ 			//$(".Main_IntroductionBox").fadeTo("fast",0.01);
+ 		}
+
+
+
+ 		
+ 	}
+
+
 
 });
